@@ -1,0 +1,21 @@
+{
+  "name": "@radiosondes/workspace",
+  "type": "module",
+  "private": true,
+  "author": "Luna Simons <luna@bddvlpr.com> (https://bddvlpr.com/)",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.2",
+    "@changesets/cli": "^2.29.5",
+    "eslint": "^9.27.0",
+    "eslint-plugin-svelte": "^3.10.1"
+  }
+}
